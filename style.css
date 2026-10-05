@@ -101,6 +101,28 @@ legend {
     color: #000000;
 }
 
+.box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.box table th,
+.box table td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+}
+
+.box a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
 footer {
     background-color: #333;
     color: white;
