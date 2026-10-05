@@ -18,28 +18,36 @@
         </nav>
 
         <main>
-            <section id="Daftar Tiket">
+            <section class="box">
 
-                <legend>Form Pendaftaran</legend>
+                <legend>Pendaftaran Tiket</legend>
                 <form action="data.html" method="get">
-                    <label for="nama">Nama:</label>
-                    <input type="text" id="nama" name="nama" required><br><br>
+                    <div>
+                        <label for="nama">Nama:</label>
+                        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required><br><br>
+                    </div>
 
-                    <label for="nim">NIM:</label>
-                    <input type="text" id="nim" name="nim" required><br><br>
+                    <div>
+                        <label for="nim">NIM:</label>
+                        <input type="text" id="nim" name="nim" pattern="[0-9]{9}" placeholder="9 digit angka" required><br><br>
+                    </div>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required><br><br>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="nama@student.itera.ac.id" required><br><br>
+                    </div>
 
-                    <label for="Keperluan">Keperluan:</label>
-                    <input type="text" id="Keperluan" name="Keperluan" required><br><br>
+                    <div>
+                        <label for="Keperluan">Keperluan:</label>
+                        <input type="text" id="Keperluan" name="Keperluan" placeholder="Contoh: Surat keterangan aktif" required><br><br>
+                    </div>
 
                     <input type="submit" value="Simpan">
                 </form>
             </section>
 
-        <footer style="padding: 16px; text-align: center; color: white; background: red; position: fixed; bottom: 0; left: 0; right: 0;">
-            <p style="margin: 0;">&copy; 2026 Erza Farandi</p>
+        <footer>
+            <p>&copy; 2026 Erza Farandi</p>
         </footer>
     </body>
 </html>

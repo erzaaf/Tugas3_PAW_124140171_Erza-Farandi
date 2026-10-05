@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
@@ -7,6 +7,7 @@ body {
 nav {
     background-color: #333;
     overflow: hidden;
+    font-family: sans-serif;
 }
 nav ul {
     display: flex;
@@ -30,4 +31,76 @@ nav a {
     text-align: center;
     padding: 16px 20px;
     text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000000;
+    padding: 20px;
+}
+
+.box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.box form div {
+    display: flex;
+    align-items: center;
+}
+
+.box form label {
+    width: 100px;
+}
+
+.box form input[type="text"] {
+    width: 200px;
+
+}
+.box form input[type="email"] {
+    width: 200px;
+}
+
+.box form input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
