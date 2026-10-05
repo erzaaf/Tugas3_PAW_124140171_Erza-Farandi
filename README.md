@@ -20,4 +20,4 @@ Halaman utama berisi form **Pembuatan Tiket Helpdesk ITERA**:
 Halaman berisi informasi pendaftar yang dibuat dummy
 
 ## Link Hosting Github
-https://github.com/erzaaf/Tugas3_PAW_124140171_Erza-Farandi/deployments/github-pages
+https://erzaaf.github.io/Tugas3_PAW_124140171_Erza-Farandi/
